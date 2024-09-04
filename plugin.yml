@@ -1,0 +1,9 @@
+name: Ranks
+version: 1.0.0
+author: wavycraft
+api: 5.0.0
+main: wavycraft\ranks\Ranks
+
+permissions:
+  ranks.cmd:
+    default: op
