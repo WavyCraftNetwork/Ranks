@@ -1,9 +1,10 @@
 # Ranks
 **Free to use**
+
 This ranks plugin is free to use for your very own server! A super simplistic ranks plugin even someone with no prior coding experience can create ranks!
 
 # API
-The API is super simple
+The API is super simple! ✨
 
 **Grab the ranks manager**
 ```
@@ -16,7 +17,7 @@ $ranksManager = RanksManager::getInstance();
 $ranksManager->getRank($player);
 ```
 
-**Checking if the rank exist and setting a rank for a player
+**Checking if the rank exist and setting a rank for a player**
 ```
 You could combine the 2 methods rankExist and setRank
 
