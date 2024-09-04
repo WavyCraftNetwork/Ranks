@@ -6,6 +6,10 @@ This ranks plugin is free to use for your very own server! A super simplistic ra
 # API
 The API is super simple! ✨
 
+Note: This plugin is designed for the simplicity!
+
+API for your plugin to use!
+
 **Grab the ranks manager**
 ```
 use wavycraft\ranks\utils\RanksManager;
