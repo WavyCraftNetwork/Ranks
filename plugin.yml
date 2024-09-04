@@ -4,6 +4,8 @@ author: wavycraft
 api: 5.0.0
 main: wavycraft\ranks\Ranks
 
+softdepend: ["Scorehud"]
+
 permissions:
   ranks.cmd:
     default: op
