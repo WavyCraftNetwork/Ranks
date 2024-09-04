@@ -63,7 +63,7 @@ class RanksManager {
             $this->updatePlayerDisplayName($player);
             $scoreHud->updateScoreHudTags($player);
         } else {
-            $player->sendMessage("The rank $rank does not exist.");
+            return false;
         }
     }
 
