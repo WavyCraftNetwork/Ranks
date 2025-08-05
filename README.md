@@ -13,18 +13,18 @@ API for your plugin to use!
 An example plugin to see how to add custom tags: [ExamplePlugin](https://github.com/WavyCraftNetwork/DeviceOS)
 
 **Grab the ranks manager**
-```
+```php
 use wavycraft\ranks\utils\RanksManager;
 
 $ranksManager = RanksManager::getInstance();
 ```
 **Get the rank of a player**
-```
+```php
 $ranksManager->getRank($player);
 ```
 
 **Checking if the rank exist and setting a rank for a player**
-```
+```php
 You could combine the 2 methods rankExist and setRank
 
 Make sure the rank exist within the ranks.yml
@@ -42,28 +42,28 @@ For an example look at the file RanksCommand.php
 ```
 
 **Remove a players rank**
-```
+```php
 This will remove the players current rank and set it to the default rank specifed in the ranks.yml
 
 $ranksManager->removeRank($player);
 ```
 
 **Get the ranks display name**
-```
+```php
 This is useful for displaying the ranks name for example when you want to get the rank name without getting the actual rank name since the actual rank name is not modifable
 
 $ranksManager->getPlayerRankDisplay($player);
 ```
 
 **Get all the ranks from the ranks.yml**
-```
+```php
 This returns all the ranks defined in the config
 
 $ranksManager->getAllRanks();
 ```
 
 **Create a custom tag**
-```
+```php
 Create a custom tag to add to your player display name and chat format
 
 First:
